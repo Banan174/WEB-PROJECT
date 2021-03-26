@@ -1,0 +1,145 @@
+*, body, html{
+  margin: 0;
+  padding: 0;
+  font: 1.03em "Open Sans", sans-serif;
+}
+body{
+  background-color:#E5D1B8;
+  background-attachment:scroll;
+}
+
+.recipe{
+  text-align: center;
+  width: 100%;
+  background-color: #C2956E;
+  color: white;
+  height: 80px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+.recipe #logo {
+  float: left;
+  font-style: italic;
+  font-weight: bold;
+  height: 30px;
+  padding: 15px  30px;
+  font-size: 1.2em;
+  line-height: 30px;
+}
+.recipe > ul
+{
+  margin: 0;
+  padding: 0;
+  float: left;
+  list-style-type: none;
+}
+.recipe > ul > li {
+  float: left;
+}
+.recipe-iteam{
+  display: inline-block;
+  padding: 15px  20px;
+  height: 30px;
+  line-height: 30px;
+  color: white;
+  text-decoration: none;
+}
+.recipe-iteam:hover{
+  background-color: #708A81;
+}
+
+#topBtn {
+  display: none;  /*Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #2B2129; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 25px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#topBtn:hover {
+  background-color: #708A81; /* Add a dark-grey background on hover */
+}
+
+
+.bottomBar {
+  display: inline-block;
+	float: left;
+	background-color: #C2956E;
+  color: #2B2129;
+  font-size: 14px;
+  text-align: left;
+	width:100%;
+  margin: 0;
+  /*bottom:0;
+  position: absolute;*/
+}
+.bottomContainer {
+  height: 100%;
+}
+.copy{
+	position: relative;
+	top: 95px !important;
+	float:left !important;
+}
+
+.QuickLinkes{
+	float: left;
+	width:35%;
+	padding: 15px 15px 0 0;
+
+}
+.QuickLinkes ul {
+  margin-bottom: 10px;
+}
+.QuickLinkes ul li{
+	padding: 1px;
+	margin-left: 40px;
+
+}
+.QuickLinkes a{
+	text-decoration: none;
+    color: #fff;
+}
+.QuickLinkes a:hover{
+    color: #708A81;
+}
+
+.details {
+  width: 73.5%;
+  margin: auto;
+  text-align: justify;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+
+}
+
+.details p {
+  margin:10px 0 0 0;
+  /*background-color: rgba(255, 255, 255, 0.6);*/
+  min-height: 150px;
+}
+.details-subject {
+  margin:10px 0 ;
+  padding: 10px;
+  background-color: white;
+  min-height: 150px;
+}
+
+
+
+.details img{
+  height: 400px;
+  width:500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
