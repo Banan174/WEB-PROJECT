@@ -92,6 +92,10 @@ p {
   /*bottom:0;
   position: absolute;*/
 }
+.v{
+  font-size: 20px;
+  font-weight: bold;
+}
 .bottomContainer {
   height: 100%;
 }
